@@ -160,8 +160,8 @@ input, button {
 }
 
 /* Completed */
-ul#main__completed-tasks label {
-  text-decoration: line-through
+#main__completed-tasks .main__task-label {
+  text-decoration: line-through;
   color: #888;
 }
 
