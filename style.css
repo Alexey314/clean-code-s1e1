@@ -141,7 +141,7 @@ input, button {
   width: 226px;
 }
 
-li > input[type="text"] {
+.main__task-text-input {
   width: 226px
 }
 
