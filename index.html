@@ -14,19 +14,19 @@
     <div class="main">
       <p id="main__new-task"><label class="main__section-heading" for="main__new-task-input">Add Item
           </label>
-        <div class="main__new-task-row-wrapper"><input id="main__new-task-input" class="main__task-text" 
+        <div class="main__new-task-row-wrapper"><input id="main__new-task-input" class="main__task-text-input main__task-text" 
             type="text"><button class="main__btn-add">Add</button>
         </div>
       </p>
       <h3 class="main__section-heading">Todo</h3>
       <ul id="main__todo-tasks">
         <li><input type="checkbox"><label class="main__task-text">Pay Bills</label>
-          <input type="text"><button class="main__btn-edit">Edit</button>
+          <input type="text" class="main__task-text-input main__task-text"><button class="main__btn-edit">Edit</button>
           <button class="main__btn-delete"><img src="./remove.svg"></button>
         </li>
         <li class="main__task-row_edit-mode"><input type="checkbox"><label 
             class="main__task-text">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="main__task-text">
+          <input type="text" value="Go Shopping" class="main__task-text-input main__task-text">
           <button class="main__btn-edit">Save</button><button class="main__btn-delete">
               <img src="./remove.svg"></button>
         </li>
@@ -35,7 +35,7 @@
       <ul id="main__completed-tasks">
         <li><input type="checkbox" checked>
           <label class="main__task-text">See the Doctor</label><input type="text" 
-              class="main__task-text">
+              class="main__task-text-input main__task-text">
           <button class="main__btn-edit">Edit</button><button class="main__btn-delete">
               <img src="./remove.svg"></button>
         </li>

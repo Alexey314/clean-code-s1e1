@@ -82,7 +82,7 @@ input, button {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.main__task-text-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -95,7 +95,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.main__task-text-input:focus {
   color: #333;
 }
 
