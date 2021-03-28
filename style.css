@@ -35,7 +35,7 @@
 .main__task-text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .main__new-task-row-wrapper {
@@ -142,7 +142,7 @@ input, button {
 }
 
 .main__task-text-input {
-  width: 226px
+  width: 226px;
 }
 
 /* li > button.main__btn-delete:hover {
@@ -176,7 +176,7 @@ input, button {
 
 .main__task-row_edit-mode .main__task-text-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .main__task-row_edit-mode .main__task-label {
