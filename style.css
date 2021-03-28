@@ -179,6 +179,6 @@ input, button {
   width: 224px
 }
 
-ul li.main__task-row_edit-mode label {
+.main__task-row_edit-mode .main__task-label {
   display: none;
 }
