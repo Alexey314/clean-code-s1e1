@@ -21,7 +21,9 @@ var createNewTaskElement=function(taskString){
     listItem.className = 'main__task-row-wrapper';
   
     //input (checkbox)
-    var checkBox=document.createElement("input");//checkbx
+    var checkBox = document.createElement("input");//checkbx
+    checkBox.className = 'main__task-checker';
+  
     //label
     var label=document.createElement("label");//label
     //input (text)

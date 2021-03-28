@@ -126,11 +126,11 @@ input, button {
   align-items: center;
 }
 
-li > * {
+/* li > * {
   vertical-align: middle;
-}
+} */
 
-li > input[type="checkbox"] {
+ .main__task-checker {
   margin: 0 10px;
 }
 
