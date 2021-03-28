@@ -107,11 +107,11 @@ input, button {
   margin: 0 0 20px;
 }
 
-input#main__new-task-input {
+#main__new-task-input {
   width: 318px;
 }
 
-p > button:hover {
+.main__btn-add:hover {
   color: #0fc57c;
 }
 
