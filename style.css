@@ -166,11 +166,15 @@ input, button {
 }
 
 /* Edit Task */
-ul li input[type=text] {
-  display: none
+.main__task-text-input {
+  display: none;
 }
 
-ul li.main__task-row_edit-mode input[type=text] {
+.main__new-task-row-wrapper .main__task-text-input {
+  display: inline-block;
+}
+
+.main__task-row_edit-mode .main__task-text-input {
   display: inline-block;
   width: 224px
 }
