@@ -175,11 +175,11 @@ button {
   display: inline-block;
 }
 
-.main__task-row_edit-mode .main__task-text-input {
+.main__task-row-wrapper_edit-mode .main__task-text-input {
   display: inline-block;
   width: 224px;
 }
 
-.main__task-row_edit-mode .main__task-label {
+.main__task-row-wrapper_edit-mode .main__task-label {
   display: none;
 }

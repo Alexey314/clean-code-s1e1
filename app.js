@@ -91,11 +91,11 @@ var editTask=function(){
     var editInput=listItem.querySelector('input[type=text]');
     var label=listItem.querySelector("label");
     var editBtn=listItem.querySelector(".main__btn-edit");
-    var containsClass=listItem.classList.contains("main__task-row_edit-mode");
-    //If class of the parent is .main__task-row_edit-mode
+    var containsClass=listItem.classList.contains("main__task-row-wrapper_edit-mode");
+    //If class of the parent is .main__task-row-wrapper_edit-mode
     if(containsClass){
 
-        //switch to .main__task-row_edit-mode
+        //switch to .main__task-row-wrapper_edit-mode
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
@@ -104,8 +104,8 @@ var editTask=function(){
         editBtn.innerText="Save";
     }
 
-    //toggle .main__task-row_edit-mode on the parent.
-    listItem.classList.toggle("main__task-row_edit-mode");
+    //toggle .main__task-row-wrapper_edit-mode on the parent.
+    listItem.classList.toggle("main__task-row-wrapper_edit-mode");
 };
 
 
