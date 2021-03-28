@@ -67,12 +67,14 @@ input, button {
   cursor: pointer;
 }
 
+.main__btn-add:hover,
 .main__btn-edit:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.main__section-heading {
+.main__section-heading,
+.main__section-heading-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -100,7 +102,7 @@ input, button {
 }
 
 /* New Task */
-label[for="main__new-task-input"] {
+.main__section-heading-label {
   display: block;
   margin: 0 0 20px;
 }
